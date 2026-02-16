@@ -2,7 +2,10 @@ name: Daily Commit
 
 on:
   schedule:
-    - cron: "0 12 * * *" # todo dia ao meio-dia (UTC)
+    # Horário Vilhena - 6:00 AM (UTC-3)
+    - cron: "0 9 * * *"   # 6:00 AM em Vilhena (9:00 AM UTC)
+    # Horário Vilhena - 3:17 PM (UTC-3)
+    - cron: "17 18 * * *"  # 3:17 PM em Vilhena (6:17 PM UTC)
   workflow_dispatch:
 
 jobs:
