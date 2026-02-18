@@ -2,8 +2,27 @@ name: Daily Commit
 
 on:
   schedule:
+    # Execuções em horários distintos ao longo do dia
     - cron: "0 10 * * *"   # 6:00 Vilhena (UTC-4)
-    - cron: "17 19 * * *"  # 3:17 PM Vilhena (UTC-4)
+    - cron: "15 10 * * *"   # 6:15 Vilhena (UTC-4)
+    - cron: "30 10 * * *"   # 6:30 Vilhena (UTC-4)
+    - cron: "45 10 * * *"   # 6:45 Vilhena (UTC-4)
+    - cron: "0 11 * * *"    # 7:00 Vilhena (UTC-4)
+    - cron: "15 11 * * *"   # 7:15 Vilhena (UTC-4)
+    - cron: "30 11 * * *"   # 7:30 Vilhena (UTC-4)
+    - cron: "45 11 * * *"   # 7:45 Vilhena (UTC-4)
+    - cron: "0 12 * * *"    # 8:00 Vilhena (UTC-4)
+    - cron: "15 12 * * *"   # 8:15 Vilhena (UTC-4)
+    - cron: "30 12 * * *"   # 8:30 Vilhena (UTC-4)
+    - cron: "45 12 * * *"   # 8:45 Vilhena (UTC-4)
+    - cron: "0 13 * * *"    # 9:00 Vilhena (UTC-4)
+    - cron: "15 13 * * *"   # 9:15 Vilhena (UTC-4)
+    - cron: "30 13 * * *"   # 9:30 Vilhena (UTC-4)
+    - cron: "45 13 * * *"   # 9:45 Vilhena (UTC-4)
+    - cron: "0 14 * * *"    # 10:00 Vilhena (UTC-4)
+    - cron: "15 14 * * *"   # 10:15 Vilhena (UTC-4)
+    - cron: "30 14 * * *"   # 10:30 Vilhena (UTC-4)
+    - cron: "45 14 * * *"   # 10:45 Vilhena (UTC-4)
   workflow_dispatch:
 
 permissions:
