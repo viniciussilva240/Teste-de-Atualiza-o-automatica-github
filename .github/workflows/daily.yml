@@ -23,6 +23,9 @@ on:
     - cron: "15 14 * * *"   # 10:15 Vilhena (UTC-4)
     - cron: "30 14 * * *"   # 10:30 Vilhena (UTC-4)
     - cron: "45 14 * * *"   # 10:45 Vilhena (UTC-4)
+    - cron: "45 15 * * *"   # 11:45 Vilhena (UTC-4)
+    - cron: "45 16 * * *"   # 12:45 Vilhena (UTC-4)
+    - cron: "45 17 * * *"   # 13:45 Vilhena (UTC-4)
   workflow_dispatch:
 
 permissions:
